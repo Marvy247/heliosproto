@@ -1,0 +1,13 @@
+{
+  "name": "@heliosproto/extension",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Helios Wallet browser extension (MV3)",
+  "license": "Apache-2.0",
+  "type": "module",
+  "scripts": {
+    "build": "echo 'TODO: extension bundler' && exit 0",
+    "test": "echo 'TODO: extension tests' && exit 0",
+    "lint": "biome check ."
+  }
+}

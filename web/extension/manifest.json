@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Helios Wallet",
+  "version": "0.0.1",
+  "description": "Smart-account-native wallet for Stellar",
+  "action": {
+    "default_title": "Helios Wallet",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["storage"],
+  "host_permissions": ["https://*/*"],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self'"
+  }
+}
