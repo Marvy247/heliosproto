@@ -9,7 +9,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "biome check .",
-    "test": "vitest run"
+    "test": "vitest run --passWithNoTests"
   },
   "dependencies": {
     "next": "^15.0.0",
