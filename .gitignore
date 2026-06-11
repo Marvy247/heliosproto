@@ -24,6 +24,7 @@ out/
 dist/
 build/
 *.tsbuildinfo
+next-env.d.ts
 .turbo/
 .pnpm-store/
 .yarn/cache/
