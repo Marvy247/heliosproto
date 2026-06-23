@@ -1,0 +1,19 @@
+[package]
+name = "heliosproto-allowlist"
+description = "Allowlist plugin contract for Helios Protocol smart accounts"
+edition.workspace = true
+version.workspace = true
+license.workspace = true
+repository.workspace = true
+authors.workspace = true
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+doctest = false
+
+[dependencies]
+soroban-sdk = { workspace = true }
+heliosproto-session-keys = { path = "../session-keys" }
+
+[dev-dependencies]
+soroban-sdk = { workspace = true, features = ["testutils"] }

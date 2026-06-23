@@ -1,0 +1,18 @@
+[package]
+name = "heliosproto-session-keys"
+description = "Session-keys plugin and Plugin trait definition for Helios Protocol"
+edition.workspace = true
+version.workspace = true
+license.workspace = true
+repository.workspace = true
+authors.workspace = true
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+doctest = false
+
+[dependencies]
+soroban-sdk = { workspace = true }
+
+[dev-dependencies]
+soroban-sdk = { workspace = true, features = ["testutils"] }

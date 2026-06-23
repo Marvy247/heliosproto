@@ -2,6 +2,9 @@
 resolver = "2"
 members = [
     "smart-account",
+    "plugins/session-keys",
+    "plugins/allowlist",
+    "plugins/spending-limits",
 ]
 
 [workspace.package]
